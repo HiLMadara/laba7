@@ -8,7 +8,7 @@
 
 int main(int argc, char ** argv)
 {
-    int test = atoi(argv[1]);
+    long int test = strtol(argv[1], argv, 10);
     int a[10];
     double sum = 0;
     int sch=0;
